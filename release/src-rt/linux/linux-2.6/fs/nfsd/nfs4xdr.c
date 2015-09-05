@@ -1230,7 +1230,7 @@ nfsd4_decode_compound(struct nfsd4_compoundargs *argp)
 	} } while (0);
 
 /* Encode as an array of strings the string given with components
- * seperated @sep.
+ * separated @sep.
  */
 static __be32 nfsd4_encode_components(char sep, char *components,
 				   __be32 **pp, int *buflen)

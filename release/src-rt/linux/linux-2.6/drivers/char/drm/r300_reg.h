@@ -514,7 +514,7 @@ I am fairly certain that they are correct unless stated otherwise in comments.
 #	define R300_PM_BACK_FILL              (1 << 8)
 
 /* Not sure why there are duplicate of factor and constant values.
-   My best guess so far is that there are seperate zbiases for test and write.
+   My best guess so far is that there are separate zbiases for test and write.
    Ordering might be wrong.
    Some of the tests indicate that fgl has a fallback implementation of zbias
    via pixel shaders. */

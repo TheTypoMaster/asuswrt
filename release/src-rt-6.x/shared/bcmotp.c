@@ -2224,7 +2224,7 @@ ipxotp_cis_append_region(si_t *sih, int region, char *vars, int count)
 		tuplePos = 0;
 		remainingCount = count;
 
-		/* seperate vars into tuples */
+		/* separate vars into tuples */
 		do {
 			tupleCount = (int)(*(vars + tuplePos + 1) + 2);
 			if (remainingCount < tupleCount) {

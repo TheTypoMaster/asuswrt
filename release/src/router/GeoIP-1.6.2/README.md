@@ -6,7 +6,7 @@
 
 `geoipupdate` is removed from the GeoIP C library.
 
-Please use the seperate tool [geoipupdate](https://github.com/maxmind/geoipupdate) to download your subscriptions or our
+Please use the separate tool [geoipupdate](https://github.com/maxmind/geoipupdate) to download your subscriptions or our
 free databases.
 
 ### 1.5.0 ###

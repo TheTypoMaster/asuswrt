@@ -11,7 +11,7 @@ using in different JS projects, but will be valuable for anyone writing JS
 code. The strenghts of this library are:
 
   * everything is written in 'modules', which provide their own namespace and
-    are seperately loadable (certain modules do depend on others, but I tried
+    are separately loadable (certain modules do depend on others, but I tried
     to keep this down to a minimum)
 
   * care has been taken that it's possible to use this library *at any time, 

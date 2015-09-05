@@ -715,7 +715,7 @@ void mld2_send_report(struct intnode *intn, const struct in6_addr *mca)
 						any = true;
 					}
 
-					/* Don't add sources twice (seperate interfaces might want the same S<->G) */
+					/* Don't add sources twice (separate interfaces might want the same S<->G) */
 					for (i=0; !any && src && (i < grec->grec_nsrcs); i++)
 					{
 						src = (struct in6_addr *)((char *)grec) + sizeof(*grec) + (sizeof(*src) * grec->grec_nsrcs);

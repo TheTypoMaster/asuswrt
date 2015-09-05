@@ -3239,7 +3239,7 @@ Mon Aug  2 12:06:00 1993  Jim Kingdon  (kingdon@lioth.cygnus.com)
 Mon Aug  2 08:42:50 1993  Stu Grossman  (grossman at cygnus.com)
 
 	* gdbserver/remote-inflow.c (create_inferior):  Fix comments, and
-	error msg.  Setup seperate process group for child.
+	error msg.  Setup separate process group for child.
 	* (write_inferior_memory):  Sleep for 1 second and retry on ptrace
 	failure.
 
@@ -4169,7 +4169,7 @@ Fri Jun 25 17:02:45 1993  Stu Grossman  (grossman at cygnus.com)
 	Fix 'k' command so that it restarts the child.
 	* gdbserver/remote-utils.c:  Remove lots of unloved vars and
 	subrs.  Move many extern decls into server.h.  (remote_open):  For
-	tcp, seperate usage of proto fd from connected fd.  Close proto
+	tcp, separate usage of proto fd from connected fd.  Close proto
 	fd after getting connection.  (putpkt/getpkt):  Pay attention to
 	errors when reading/writing.  Report these to the caller.  New
 	routines input_interrupt/enable_async_io/disable_async_io to make
@@ -7370,7 +7370,7 @@ Sat Jan  9 19:59:33 1993  Stu Grossman  (grossman at cygnus.com)
 
 Sat Jan  9 19:31:43 1993  Stu Grossman  (grossman at cygnus.com)
 
-	* sparc-stub.c:  Use a seperate stack for our traps.
+	* sparc-stub.c:  Use a separate stack for our traps.
 	* Handle recursive traps.
 	* Remove all trap init code.  This needs to be done by the
 	environment.

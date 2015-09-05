@@ -3326,7 +3326,7 @@ responsible for converting the provided octet strings into MPIs, which
 are then forwared to the cryptographic primitives.  Since schemes are
 to be used for a special purpose in order to achieve a particular
 security goal, there exist ``encryption schemes'' and ``signature
-schemes''.  Encoding methods can be used seperately or implicitly
+schemes''.  Encoding methods can be used separately or implicitly
 through schemes.
 
 What follows is a description of the cryptographic primitives.

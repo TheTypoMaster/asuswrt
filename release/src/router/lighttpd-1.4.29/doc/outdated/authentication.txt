@@ -65,7 +65,7 @@ plain
 `````
 
 A file which contains username and the cleartext password
-seperated by a colon. Each entry is terminated by a single
+separated by a colon. Each entry is terminated by a single
 newline.::
 
   e.g.:
@@ -76,7 +76,7 @@ htpasswd
 ````````
 
 A file which contains username and the crypt()'ed password
-seperated by a colon. Each entry is terminated by a single
+separated by a colon. Each entry is terminated by a single
 newline. ::
 
   e.g.:
@@ -92,7 +92,7 @@ htdigest
 ````````
 
 A file which contains username, realm and the md5()'ed
-password seperated by a colon. Each entry is terminated
+password separated by a colon. Each entry is terminated
 by a single newline. ::
 
   e.g.:

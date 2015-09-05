@@ -110,7 +110,7 @@ int main(){
     /* I handle the initial header first instead of just having the code
        read all three Vorbis headers at once because reading the initial
        header is an easy way to identify a Vorbis bitstream and it's
-       useful to see that functionality seperated out. */
+       useful to see that functionality separated out. */
     
     vorbis_info_init(&vi);
     vorbis_comment_init(&vc);

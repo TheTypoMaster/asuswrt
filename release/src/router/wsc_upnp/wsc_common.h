@@ -130,7 +130,7 @@ typedef struct PACKED _RTMP_WSC_NLMSG_HDR{
 							*/
 	uint32	envID;			// Unique event Identification assigned by sender.
 	uint32	ackID;			// Notify that this message is a repsone for the message whose event identifier is "ackID".
-	uint32	msgLen;			// Totally length for this message. This message may seperate in serveral packets.
+	uint32	msgLen;			// Totally length for this message. This message may separate in serveral packets.
 	uint16	flags;			
 	uint16	segLen;			/* The "segLen" means the actual data length in this one msg packet.
 								Because the NETLINK socket just support 256bytes for "IWCUSTOM" typed message, so we may 

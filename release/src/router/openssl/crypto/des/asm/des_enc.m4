@@ -266,7 +266,7 @@ define(ip_macro, {
 ! other half (use).
 !
 ! In this version we do two rounds in a loop repeated 7 times
-! and two rounds seperately.
+! and two rounds separately.
 !
 ! One half has the bits for the sboxes in the following positions:
 !

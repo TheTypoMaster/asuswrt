@@ -2,7 +2,7 @@ FOLLOW THESE STEPS:
 
 0) There may be some outstanding bugfixes or tweaks which are not yet
    in the official kernel.  Those are now (as of iptables-1.2.7) kept
-   in a seperate package, called patch-o-matic.  It is available from
+   in a separate package, called patch-o-matic.  It is available from
    ftp://ftp.netfilter.org/pub/patch-o-matic/
 
 1) Next, make the package.

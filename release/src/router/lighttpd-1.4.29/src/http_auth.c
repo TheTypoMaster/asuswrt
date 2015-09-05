@@ -335,7 +335,7 @@ static int http_auth_match_rules(server *srv, mod_auth_plugin_data *p, const cha
 
 	/* user=name1|group=name3|host=name4 */
 
-	/* seperate the string by | */
+	/* separate the string by | */
 #if 0
 	log_error_write(srv, __FILE__, __LINE__, "sb", "rules", require->value);
 #endif

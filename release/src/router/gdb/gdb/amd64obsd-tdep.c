@@ -59,7 +59,7 @@ amd64obsd_regset_from_core_section (struct gdbarch *gdbarch,
 {
   struct gdbarch_tdep *tdep = gdbarch_tdep (gdbarch);
 
-  /* OpenBSD core dumps don't use seperate register sets for the
+  /* OpenBSD core dumps don't use separate register sets for the
      general-purpose and floating-point registers.  */
 
   if (strcmp (sect_name, ".reg") == 0

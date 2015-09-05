@@ -3,7 +3,7 @@
 #define __PCI_NLM_H__
 
 /*
- * We seperate the netlink type for client and server here.
+ * We separate the netlink type for client and server here.
  * If the netlink type is conflicted with customers', they just need to modify
  * NETLINK_RPC_PCI_CLNT and the type define in the PCIe RC driver and the netlink
  * type in the rpc server and PCIe EP driver will not be affected.

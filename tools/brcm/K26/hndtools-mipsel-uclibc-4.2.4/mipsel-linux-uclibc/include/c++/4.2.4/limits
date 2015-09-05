@@ -185,7 +185,7 @@ _GLIBCXX_BEGIN_NAMESPACE(std)
    *  The @c static @c const members are usable as integral constant
    *  expressions.
    *
-   *  @note This is a seperate class for purposes of efficiency; you
+   *  @note This is a separate class for purposes of efficiency; you
    *        should only access these members as part of an instantiation
    *        of the std::numeric_limits class.
   */

@@ -111,7 +111,7 @@ ifdef ($(KSRC)/.tmp_versions)
 	-cp $(KSRC)/.tmp_versions/*.mod $(MODVERDIR)
 endif
 	$(MAKE) -C $(KSRC) M=$(PWD) CROSS_COMPILE=$(CROSS_COMPILE) ARCH=$(ARCH) MODVERDIR=$(MODVERDIR) modules
-else # We've got a kernel with seperate output, copy the config, and use O=
+else # We've got a kernel with separate output, copy the config, and use O=
 	mkdir -p $(TMP)
 	cp $(KSRC_OUTPUT)/.config $(TMP)
 	$(MAKE) -C $(KSRC) M=$(PWD) CROSS_COMPILE=$(CROSS_COMPILE) ARCH=$(ARCH) MODVERDIR=$(MODVERDIR)) O=$(PWD)/tmp modules

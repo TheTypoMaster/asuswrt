@@ -64,7 +64,7 @@ CFLAGS		+= -ffunction-sections $(call check_gcc, -fvtable-gc, )
 
 SYSTEM		?= $(LINUXDIR)/vmlinux
 
-# Note: siutils.o appeared seperately on purpose to solve post reference problem of GCC
+# Note: siutils.o appeared separately on purpose to solve post reference problem of GCC
 OBJS-mips = boot.o sisdram.o sbsdram.o aisdram.o sflash.o hndmips.o sbutils.o aiutils.o siutils.o nicpci.o
 # We should not compile sbutils.o but need add more compile directive in siutils.c
 OBJS-arm = bootarm.o  aisdram_ca9.o siutils.o hndarm_ca9.o pcieinit_ca9.o sbutils.o aiutils.o nicpci.o 

@@ -49,7 +49,7 @@ struct vorbis_release {
 /* TODO:
  *
  * - detect violations of muxing constraints
- * - detect granulepos 'gaps' (possibly vorbis-specific). (seperate from 
+ * - detect granulepos 'gaps' (possibly vorbis-specific). (separate from 
  *   serial-number gaps)
  */
 

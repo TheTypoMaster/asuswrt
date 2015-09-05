@@ -652,7 +652,7 @@ static inline void new_hashed_relocation(reiserfs_blocknr_hint_t * hint)
 
 /*
  * Relocation based on dirid, hashing them into a given bitmap block
- * files. Formatted nodes are unaffected, a seperate policy covers them
+ * files. Formatted nodes are unaffected, a separate policy covers them
  */
 static void dirid_groups(reiserfs_blocknr_hint_t * hint)
 {
@@ -677,7 +677,7 @@ static void dirid_groups(reiserfs_blocknr_hint_t * hint)
 
 /*
  * Relocation based on oid, hashing them into a given bitmap block
- * files. Formatted nodes are unaffected, a seperate policy covers them
+ * files. Formatted nodes are unaffected, a separate policy covers them
  */
 static void oid_groups(reiserfs_blocknr_hint_t * hint)
 {

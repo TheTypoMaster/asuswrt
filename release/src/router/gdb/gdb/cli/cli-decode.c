@@ -721,7 +721,7 @@ apropos_cmd (struct ui_file *stream, struct cmd_list_element *commandlist,
  * giving a command that requires subcommands.  Also called by saying
  * just "help".)
  *
- *   I am going to split this into two seperate comamnds, help_cmd and
+ *   I am going to split this into two separate comamnds, help_cmd and
  * help_list. 
  */
 

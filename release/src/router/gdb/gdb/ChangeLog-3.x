@@ -1566,7 +1566,7 @@ Tue Jun 20 14:25:54 1989  Randy Smith  (randy at tartarus.uchicago.edu)
 
 	* m-hp9k320.h: Changed check on __GNU__ predefine to __GNUC__.
 
-	* Makefile: Made MUNCH_DEFINE seperate and based on SYSV_DEFINE;
+	* Makefile: Made MUNCH_DEFINE separate and based on SYSV_DEFINE;
 	they aren't the same on hp's.
 
 Mon Jun 19 17:10:16 1989  Randy Smith  (randy at tartarus.uchicago.edu)
@@ -1860,7 +1860,7 @@ Mon May 15 12:11:33 1989  Randall Smith  (randy at apple-gunkies.ai.mit.edu)
 	remove need to readin symtabs for symbolic addresses.  
 
 	* source.c (directory_command): Replaced function with new one
-	that can accept lists of directories seperated by spaces or :'s.
+	that can accept lists of directories separated by spaces or :'s.
 
 	* inflow.c (new_tty): Replaced calls to dup2 with calls to dup.
 
@@ -2622,7 +2622,7 @@ Thu Mar 16 15:39:42 1989  Randall Smith  (randy at apple-gunkies.ai.mit.edu)
 	* blockframe.c (get_prev_frame_info): Added to fatal error message
 	to indicate that it should never happen.
 
-	* stack.c (frame_info): Printed out value of "saved" sp seperately
+	* stack.c (frame_info): Printed out value of "saved" sp separately
 	to call attention to the fact that it isn't stored in memory
 	anywhere; the actual previous frames address is printed.
 
@@ -3254,7 +3254,7 @@ Wed Jan 18 20:09:39 1989  Randall Smith  (randy at apple-gunkies.ai.mit.edu)
 	yesterday. 
 
 	* findvar.c (value_from_register): Added code to create a value of
-	type lval_reg_partsaved if a value is in seperate registers and
+	type lval_reg_partsaved if a value is in separate registers and
 	saved in different places.
 
 Tue Jan 17 13:50:18 1989  Randall Smith  (randy at apple-gunkies.ai.mit.edu)
@@ -3717,7 +3717,7 @@ Wed Dec 14 13:27:04 1988  Randall Smith  (randy at gluteus.ai.mit.edu)
 	own psymtab.
 	* dbxread.c (start_psymtab): Eliminated initialization of above.
 		    (end_psymtab): Eliminated finalization of above; get
-		    includes from seperate list.
+		    includes from separate list.
 		    (read_dbx_symtab): Moved includes from psymtab list to
 		    their own list; included in call to end_psymtab.
 	* symmisc.c (free_psymtab): Don't free includes.
@@ -4049,7 +4049,7 @@ Tue Nov 22 16:40:14 1988  Randall Smith  (randy at cream-of-wheat.ai.mit.edu)
 		struct types as derived types.  Possibly derived from
 		several different base classes.  Also added new code to
 		mark definitions via virtual paths or via public paths.
-		Killed seperate code to handle classes with destructors
+		Killed separate code to handle classes with destructors
 		but without constructors and improved marking of classes
 		as having destructors and constructors.
 	* infcmd.c: Modified call to val_print (one more argument).
@@ -4384,7 +4384,7 @@ Fri Oct 21 15:09:19 1988  Randall Smith  (randy at apple-gunkies.ai.mit.edu)
 	* m-sparc.h (PUSH_DUMMY_FRAME): Saved the value of the RP register
 	in the location reserved for i7 (in the created frame); this way
 	the rp value won't get lost.  The pc (what we put into the rp in
-	this routine) gets saved seperately, so we loose no information.
+	this routine) gets saved separately, so we loose no information.
 
 	* sparc-dep.c (do_save_insn & do_restore_insn): Added a wrapper to
 	preserve the proceed status state variables around each call to

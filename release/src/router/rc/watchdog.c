@@ -2098,7 +2098,7 @@ static void send_wrslog_email(char *path)
 		return;
 	}
 
-	// extract mail log into seperated event information
+	// extract mail log into separated event information
 	extract_data(path, fp);
 
 	fprintf(fp, "Suggest action: Your client devices has been detected suspicious networking behavior and blocked connection with destination server to protect your sensitive information.\nBased on our recommendation, you can\n");

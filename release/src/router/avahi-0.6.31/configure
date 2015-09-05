@@ -1721,7 +1721,7 @@ Optional Features:
   --enable-doxygen-rtf    generate doxygen RTF documentation
   --disable-doxygen-xml   don't generate doxygen XML documentation
   --enable-doxygen-chm    generate doxygen compressed HTML help documentation
-  --enable-doxygen-chi    generate doxygen seperate compressed HTML help index
+  --enable-doxygen-chi    generate doxygen separate compressed HTML help index
                           file
   --disable-doxygen-html  don't generate doxygen plain HTML documentation
   --enable-doxygen-ps     generate doxygen PostScript documentation

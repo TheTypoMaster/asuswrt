@@ -362,7 +362,7 @@ ccio_alloc_range(struct ioc *ioc, size_t size)
 	if (pages_needed <= 8) {
 		/*
 		 * LAN traffic will not thrash the TLB IFF the same NIC
-		 * uses 8 adjacent pages to map seperate payload data.
+		 * uses 8 adjacent pages to map separate payload data.
 		 * ie the same byte in the resource bit map.
 		 */
 #if 0

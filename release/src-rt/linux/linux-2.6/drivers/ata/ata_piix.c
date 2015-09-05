@@ -689,7 +689,7 @@ static void piix_set_piomode (struct ata_port *ap, struct ata_device *adev)
 
 	pci_read_config_word(dev, master_port, &master_data);
 	if (is_slave) {
-		/* Enable SITRE (seperate slave timing register) */
+		/* Enable SITRE (separate slave timing register) */
 		master_data |= 0x4000;
 		/* enable PPE1, IE1 and TIME1 as needed */
 		master_data |= (control << 4);

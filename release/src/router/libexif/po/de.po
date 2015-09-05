@@ -2533,7 +2533,7 @@ msgid ""
 msgstr ""
 "Spezifiziert die Identifikation der Interoperabilitätsregel. Benutze \"R98\" "
 "für ExifR98 Regeln. 4 Bytes werden benutzt inklusive des End Codes (NULL). "
-"Siehe auch das seperate Dokument der \"Recommended Exif Interoperability "
+"Siehe auch das separate Dokument der \"Recommended Exif Interoperability "
 "Rules\" (ExifR98) für andere Tags die für ExifR98 benutzt werden."
 
 #: libexif/exif-tag.c:76

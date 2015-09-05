@@ -133,7 +133,7 @@ insmulti%: dropbearmulti
 	-rm -f $(DESTDIR)$(bindir)/$*$(EXEEXT) 
 	-ln -s $(DESTDIR)$(bindir)/dropbearmulti$(EXEEXT) $(DESTDIR)$(bindir)/$*$(EXEEXT) 
 
-# dropbear should go in sbin, so it needs a seperate rule
+# dropbear should go in sbin, so it needs a separate rule
 inst_dropbear: dropbear
 	$(INSTALL) -d -m 755 $(DESTDIR)$(sbindir)
 	$(INSTALL) -m 755 dropbear$(EXEEXT) $(DESTDIR)$(sbindir)

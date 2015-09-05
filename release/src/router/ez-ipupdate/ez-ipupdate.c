@@ -2885,7 +2885,7 @@ int DHS_update_entry(void)
       break;
   }
 
-  // this stupid service requires us to do seperate request if we want to 
+  // this stupid service requires us to do separate request if we want to 
   // update the mail exchanger (mx). grrrrrr
   if(*mx != '\0')
   {

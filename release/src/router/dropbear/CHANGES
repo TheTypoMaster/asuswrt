@@ -619,7 +619,7 @@
 - Fixup for bad base64 parsing in authorized_keys
   (noticed by Davyd Madeley <davyd at zdlcomputing.com>)
 - Added initial tcp forwarding code, only -L (local) at this stage
-- Improved "make install" with DESTDIR and changing ownership seperately,
+- Improved "make install" with DESTDIR and changing ownership separately,
   don't check for setpgrp on Linux for crosscompiling.
   (from Erik Andersen <andersen at codepoet.org>)
 - More commenting, fix minor compile warnings, make return values more

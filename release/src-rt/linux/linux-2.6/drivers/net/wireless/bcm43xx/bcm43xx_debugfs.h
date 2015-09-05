@@ -28,7 +28,7 @@ struct bcm43xx_dfsentry {
 	struct bcm43xx_xmitstatus *xmitstatus_buffer;
 	int xmitstatus_ptr;
 	int xmitstatus_cnt;
-	/* We need a seperate buffer while printing to avoid
+	/* We need a separate buffer while printing to avoid
 	 * concurrency issues. (New xmitstatus can arrive
 	 * while we are printing).
 	 */

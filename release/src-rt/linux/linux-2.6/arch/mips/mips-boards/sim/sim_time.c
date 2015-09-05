@@ -193,7 +193,7 @@ void __init plat_timer_setup(struct irqaction *irq)
 
 #ifdef CONFIG_SMP
 	/* irq_desc(riptor) is a global resource, when the interrupt overlaps
-	   on seperate cpu's the first one tries to handle the second interrupt.
+	   on separate cpu's the first one tries to handle the second interrupt.
 	   The effect is that the int remains disabled on the second cpu.
 	   Mark the interrupt with IRQ_PER_CPU to avoid any confusion */
 	irq_desc[mips_cpu_timer_irq].flags |= IRQ_PER_CPU;

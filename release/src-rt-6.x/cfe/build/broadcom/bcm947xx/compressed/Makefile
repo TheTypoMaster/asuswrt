@@ -38,7 +38,7 @@ vpath %.lds.in $(SRCBASE)/shared $(SRCBASE)/tools/misc/lzma_src/C
 CFLAGS		+= -DLOADADDR=$(LOADADDR)
 CFLAGS		+= -ffunction-sections $(call check_gcc, -fvtable-gc, )
 
-# Note: siutils.o appeared seperately on purpose to solve post reference problem of GCC
+# Note: siutils.o appeared separately on purpose to solve post reference problem of GCC
 OBJS-mips = boot.o sisdram.o siutils.o hndmips.o hndpmu.o
 OBJS-arm = bootarm.o  aisdram_ca9.o siutils.o hndarm_ca9.o \
 	   pcieinit_ca9.o aiutils.o

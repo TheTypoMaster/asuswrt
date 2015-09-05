@@ -6376,7 +6376,7 @@ snmp_oid_ncompare(const oid * in_name1,
      */
     while (len-- > 0) {
         /*
-         * these must be done in seperate comparisons, since
+         * these must be done in separate comparisons, since
          * subtracting them and using that result has problems with
          * subids > 2^31. 
          */
@@ -6429,7 +6429,7 @@ snmp_oid_compare(const oid * in_name1,
      */
     while (len-- > 0) {
         /*
-         * these must be done in seperate comparisons, since
+         * these must be done in separate comparisons, since
          * subtracting them and using that result has problems with
          * subids > 2^31. 
          */
@@ -6480,7 +6480,7 @@ netsnmp_oid_compare_ll(const oid * in_name1,
      */
     while (len-- > 0) {
         /*
-         * these must be done in seperate comparisons, since
+         * these must be done in separate comparisons, since
          * subtracting them and using that result has problems with
          * subids > 2^31. 
          */
@@ -6564,7 +6564,7 @@ netsnmp_oid_equals(const oid * in_name1,
      */
     while (len-- > 0) {
         /*
-         * these must be done in seperate comparisons, since
+         * these must be done in separate comparisons, since
          * subtracting them and using that result has problems with
          * subids > 2^31. 
          */

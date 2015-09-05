@@ -2604,7 +2604,7 @@ remote_open_1 (char *name, int from_tty, struct target_ops *target,
      as kill) won't work.  This variable serves (at least) double duty
      as both the pid of the target process (if it has such), and as a
      flag indicating that a target is active.  These functions should
-     be split out into seperate variables, especially since GDB will
+     be split out into separate variables, especially since GDB will
      someday have a notion of debugging several processes.  */
 
   inferior_ptid = pid_to_ptid (MAGIC_NULL_PID);

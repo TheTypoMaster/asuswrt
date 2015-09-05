@@ -1,5 +1,5 @@
 This file is out of date - it remains here in case it is still of use.
-The basic naming convention is svr- and cli-  for seperate parts,
+The basic naming convention is svr- and cli-  for separate parts,
 then common- for common parts. Some files have no prefix.
 
 A brief rundown on which files do what, and their corresponding sections

@@ -2263,8 +2263,8 @@ msgstr ""
 # fp_printf(fp, _(" # Flags Head Sect Cyl   ID  Head Sect Cyl    Sector Sectors\n"));
 # fp_printf(fp, _("-- ----- ---- ---- ---- ---- ---- ---- ---- -------- ---------\n"));
 #
-# This makes no sense to translate seperately, since the lines are very
-# much related. In fact, in seperate messages like the above it makes
+# This makes no sense to translate separately, since the lines are very
+# much related. In fact, in separate messages like the above it makes
 # sense to translate "Start Number of": Only if you look carefully in the
 # source you realize that "Start" belongs to "Sector" in another message
 # (the one from the line below in the source).

@@ -66,8 +66,8 @@ if ( (!$ok) || (@ARGV < 1) || ($Options{'?'}) || ($Options{'h'}) ) {
   print "  -H    sambaAcctFlags (samba account control bits like '[NDHTUMWSLKI]')\n";
   print "  -I    disable an user. Can't be used with -H or -J\n";
   print "  -J    enable an user. Can't be used with -H or -I\n";
-  print "  -M    mailAddresses (comma seperated)\n";
-  print "  -T    mailToAddress (forward address) (comma seperated)\n";
+  print "  -M    mailAddresses (comma separated)\n";
+  print "  -T    mailToAddress (forward address) (comma separated)\n";
   print "  -?|-h show this help message\n";
   exit (1);
 }

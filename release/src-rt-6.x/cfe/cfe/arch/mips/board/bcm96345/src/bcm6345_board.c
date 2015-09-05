@@ -178,7 +178,7 @@ void displayBoardParam(void)
     getBoardParam();
     for (i = 0; i < (count-1); i++)
         printf("%s %s  \n", gBoardParam[i].promptName, gBoardParam[i].parameter);
-    // print last memory type seperately
+    // print last memory type separately
     memType = kerSysMemoryTypeGet();
     switch (memType)
     {

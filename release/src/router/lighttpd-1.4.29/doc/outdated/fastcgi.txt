@@ -446,7 +446,7 @@ disadvantages like
 - has the same permissions as the webserver
 - has the same base-dir as the webserver
 
-As soon as you are using a seperate FastCGI Server to
+As soon as you are using a separate FastCGI Server to
 take off some load from the webserver you have to control
 the FastCGI process by a external program like spawn-fcgi.
 

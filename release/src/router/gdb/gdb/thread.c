@@ -514,8 +514,8 @@ make_cleanup_restore_current_thread (ptid_t inferior_ptid,
 }
 
 /* Apply a GDB command to a list of threads.  List syntax is a whitespace
-   seperated list of numbers, or ranges, or the keyword `all'.  Ranges consist
-   of two numbers seperated by a hyphen.  Examples:
+   separated list of numbers, or ranges, or the keyword `all'.  Ranges consist
+   of two numbers separated by a hyphen.  Examples:
 
    thread apply 1 2 7 4 backtrace       Apply backtrace cmd to threads 1,2,7,4
    thread apply 2-7 9 p foo(1)  Apply p foo(1) cmd to threads 2->7 & 9

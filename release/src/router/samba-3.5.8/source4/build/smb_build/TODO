@@ -4,7 +4,7 @@
   supported by current make
 - fix shared module loading for selftest during builds without install
 - remove recursive dependency between LIBSOCKET, LIBCLI_NBT and LIBCLI_RESOLVE
-- clearer distinction between dcerpc and ndr. seperate interface tables? Maybe get rid of 
+- clearer distinction between dcerpc and ndr. separate interface tables? Maybe get rid of 
   NDR's table altogether and use dlopen/dlsym ?
 - saner names for:
 	libcli.so.0.0.1 (rename to libsmb?)

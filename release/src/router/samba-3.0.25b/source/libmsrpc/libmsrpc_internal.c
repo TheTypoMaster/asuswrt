@@ -143,7 +143,7 @@ RPC_DATA_BLOB *cac_MakeRpcDataBlob( TALLOC_CTX * mem_ctx, uint32 data_type,
 			size += strlen( data.reg_multi_sz.strings[i] ) + 1;
 		}
 
-	 /**need a whole bunch of unicode strings in a row (seperated by null characters), with an extra null-character on the end*/
+	 /**need a whole bunch of unicode strings in a row (separated by null characters), with an extra null-character on the end*/
 
 		multi = TALLOC_ZERO_ARRAY( mem_ctx, uint8, ( size + 1 ) * 2 );	/*size +1 for the extra null character */
 		if ( !multi ) {

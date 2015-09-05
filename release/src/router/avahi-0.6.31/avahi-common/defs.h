@@ -204,9 +204,9 @@
  * returned by AvahiDomainBrowser is assembled by the browsing domains
  * configured in the daemon's configuration file, the domains
  * announced inside the default domain, the domains set with the
- * environment variable $AVAHI_BROWSE_DOMAINS (colon-seperated) on the
+ * environment variable $AVAHI_BROWSE_DOMAINS (colon-separated) on the
  * client side and the domains set in the XDG configuration file
- * ~/.config/avahi/browse-domains on the client side (seperated by
+ * ~/.config/avahi/browse-domains on the client side (separated by
  * newlines). File managers offering some kind of "Network
  * Neighborhood" folder should show the entries of the default domain
  * right inside that and offer subfolders for the browsing domains

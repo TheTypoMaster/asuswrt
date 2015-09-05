@@ -280,7 +280,7 @@ int main(int argc,char *argv[]){
     
     /* must iterate over both pigeonholes and entries */
     /* temporarily (in order to avoid thinking hard), we grow each
-       pigeonhole seperately, the build a stack of 'em later */
+       pigeonhole separately, the build a stack of 'em later */
     pigeons=1;
     subpigeons=1;
     for(i=0;i<dim;i++)subpigeons*=p->mapentries;

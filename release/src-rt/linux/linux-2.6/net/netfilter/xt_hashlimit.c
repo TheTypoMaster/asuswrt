@@ -1,5 +1,5 @@
 /* iptables match extension to limit the number of packets per second
- * seperately for each hashbucket (sourceip/sourceport/dstip/dstport)
+ * separately for each hashbucket (sourceip/sourceport/dstip/dstport)
  *
  * (C) 2003-2004 by Harald Welte <laforge@netfilter.org>
  *

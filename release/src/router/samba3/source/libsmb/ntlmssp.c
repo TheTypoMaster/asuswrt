@@ -237,7 +237,7 @@ NTSTATUS ntlmssp_store_response(NTLMSSP_STATE *ntlmssp_state,
  * Request features for the NTLMSSP negotiation
  *
  * @param ntlmssp_state NTLMSSP state
- * @param feature_list List of space seperated features requested from NTLMSSP.
+ * @param feature_list List of space separated features requested from NTLMSSP.
  */
 void ntlmssp_want_feature_list(NTLMSSP_STATE *ntlmssp_state, char *feature_list)
 {

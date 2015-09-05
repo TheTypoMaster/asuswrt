@@ -53,7 +53,7 @@
  *    08/12/1999 - changed LVM_LV_SIZE_MAX macro to reflect current 1TB limit
  *    01/01/2000 - extended lv_v2 core structure by wait_queue member
  *    12/02/2000 - integrated Andrea Arcagnelli's snapshot work
- *    18/02/2000 - seperated user and kernel space parts by
+ *    18/02/2000 - separated user and kernel space parts by
  *                 #ifdef them with __KERNEL__
  *    08/03/2000 - implemented cluster/shared bits for vg_access
  *    26/06/2000 - implemented snapshot persistency and resizing support
@@ -161,7 +161,7 @@ struct list_head {
 /*
  * i/o protocol version
  *
- * defined here for the driver and defined seperate in the
+ * defined here for the driver and defined separate in the
  * user land tools/lib/liblvm.h
  *
  */

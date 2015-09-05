@@ -200,7 +200,7 @@ PCMCIA, USB, etc. The files network.opts and wireless.opts in
 /etc/pcmcia are not used any longer. There is /sbin/ifup to set up all
 kind of network interface.
 	There is a file /etc/sysconfig/network/wireless where you may
-set most of the options of iwconfig in seperate variables (they are
+set most of the options of iwconfig in separate variables (they are
 named like the options). Additionally you may use
 WIRELESS_IWCONFIG_OPTIONS e.g. for setting key 2, 3 or 4 or
 unsupported iwconfig commands. This file is documented and its

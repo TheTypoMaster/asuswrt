@@ -2693,7 +2693,7 @@ rx_ack_print(register const u_char *bp, int length)
 				 * the range (such as an nacked packet in
 				 * the middle of some acked packets),
 				 * then print the current packet number
-				 * seperated from the last number by
+				 * separated from the last number by
 				 * a comma.
 				 */
 
@@ -2716,7 +2716,7 @@ rx_ack_print(register const u_char *bp, int length)
 				 * we hit a nack ... in _this_ case we
 				 * want to print out the range of packets
 				 * that were acked, so we need to print
-				 * the _previous_ packet number seperated
+				 * the _previous_ packet number separated
 				 * from the first by a dash (-).  Since we
 				 * already printed the first packet above,
 				 * just print the final packet.  Don't

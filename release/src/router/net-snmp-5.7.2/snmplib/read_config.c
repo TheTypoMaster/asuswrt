@@ -1106,7 +1106,7 @@ read_premib_configs(void)
  * Parameters:
  *      char *dir - value of the directory
  * Sets the configuration directory. Multiple directories can be
- * specified, but need to be seperated by 'ENV_SEPARATOR_CHAR'.
+ * specified, but need to be separated by 'ENV_SEPARATOR_CHAR'.
  */
 void
 set_configuration_directory(const char *dir)
@@ -1789,7 +1789,7 @@ skip_token_const(const char *ptr)
 /*
  * copy_word
  * copies the next 'token' from 'from' into 'to', maximum len-1 characters.
- * currently a token is anything seperate by white space
+ * currently a token is anything separate by white space
  * or within quotes (double or single) (i.e. "the red rose" 
  * is one token, \"the red rose\" is three tokens)
  * a '\' character will allow a quote character to be treated
@@ -1864,7 +1864,7 @@ copy_nword_const(const char *from, char *to, int len)
 /*
  * copy_word
  * copies the next 'token' from 'from' into 'to'.
- * currently a token is anything seperate by white space
+ * currently a token is anything separate by white space
  * or within quotes (double or single) (i.e. "the red rose" 
  * is one token, \"the red rose\" is three tokens)
  * a '\' character will allow a quote character to be treated

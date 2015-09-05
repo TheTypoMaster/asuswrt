@@ -22,7 +22,7 @@ info    -        line numbers as they're traversed.
 info    - dump:  Nicely breaks down packets as they're parsed or sent out.
 info  command line equivelent: -Dtoken[,token...]
 info  arguments: token[,token...]
-question 1 Enter the tokens (comma seperated) you wish to see output for
+question 1 Enter the tokens (comma separated) you wish to see output for
 
 token dumpPacket
 info  Print packets as they are received or sent

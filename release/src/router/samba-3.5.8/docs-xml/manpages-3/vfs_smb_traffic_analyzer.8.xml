@@ -48,7 +48,7 @@
 	</simplelist>
 
 	<para><command>vfs_smb_traffic_analyzer</command> sends the following data
-	in a fixed format seperated by a comma through either an internet or a
+	in a fixed format separated by a comma through either an internet or a
 	unix domain socket:</para>
 	<programlisting>
 	BYTES|USER|DOMAIN|READ/WRITE|SHARE|FILENAME|TIMESTAMP

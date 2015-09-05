@@ -17,7 +17,7 @@ extern void microdev_print_fpga_intc_status(void);
 /*
  * The following are useful macros for manipulating the interrupt
  * controller (INTC) on the CPU-board FPGA.  should be noted that there
- * is an INTC on the FPGA, and a seperate INTC on the SH4-202 core -
+ * is an INTC on the FPGA, and a separate INTC on the SH4-202 core -
  * these are two different things, both of which need to be prorammed to
  * correctly route - unfortunately, they have the same name and
  * abbreviations!

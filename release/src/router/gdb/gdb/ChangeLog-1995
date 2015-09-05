@@ -3521,7 +3521,7 @@ Fri Mar 24 15:45:42 1995  Stu Grossman  (grossman@cygnus.com)
 	sending S-records.  Fix bug where value of srec_frame shrinks.  If
 	hashmark is set, print `-' for retransmissions.  General cleanups.
 	* (monitor_make_srec):  Get rid of S-record default type kludge.
-	* monitor.h:  Use seperate struct for memory and register
+	* monitor.h:  Use separate struct for memory and register
 	read/write commands.  Memory commands can come in byte, word,
 	long, and longlong forms.
 	* (monitor_ops):  Change lots of fields.  Generalize some stuff.

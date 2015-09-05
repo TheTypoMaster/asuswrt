@@ -15,7 +15,7 @@ $HTTP["host"] == "download.example.com" {
 
   server.document-root = vhosts_dir + "/example.com/download/htdocs"
   ##
-  ## use a seperate access log file
+  ## use a separate access log file
   ## At the moment you cant have different error log files.
   ##
   accesslog.filename          = log_root + "/" + server_name "/access.log"

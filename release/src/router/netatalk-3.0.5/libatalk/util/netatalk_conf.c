@@ -407,7 +407,7 @@ static char *volxlate(const AFPObj *obj,
 /*!
  * check access list
  *
- * this function wants a string consisting of names seperated by comma
+ * this function wants a string consisting of names separated by comma
  * or space. Names may be quoted within a pair of quotes. Groups are
  * denoted by a leading @ symbol.
  * Example:

@@ -38,10 +38,10 @@
 
 #define PASSWORD_GUID_ATTR "masterGUID"
 
-/* This module maintains a local password database, seperate from the main LDAP server.
+/* This module maintains a local password database, separate from the main LDAP server.
 
    This allows the password database to be syncronised in a multi-master
-   fashion, seperate to the more difficult concerns of the main
+   fashion, separate to the more difficult concerns of the main
    database.  (With passwords, the last writer always wins)
 
    Each incoming add/modify is split into a remote, and a local request, done in that order.

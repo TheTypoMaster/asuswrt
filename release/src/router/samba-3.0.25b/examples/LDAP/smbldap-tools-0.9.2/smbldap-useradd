@@ -67,8 +67,8 @@ if ( (!$ok) || (@ARGV < 1) || ($Options{'?'}) ) {
   print "  -H	sambaAcctFlags (samba account control bits like '[NDHTUMWSLKI]')\n";
   print "  -N	surname\n";
   print "  -S	family name\n";
-  print "  -M	local mailAddress (comma seperated)\n";
-  print "  -T	mailToAddress (forward address) (comma seperated)\n";
+  print "  -M	local mailAddress (comma separated)\n";
+  print "  -T	mailToAddress (forward address) (comma separated)\n";
   print "  -?	show this help message\n";
   exit (1);
 }
@@ -615,7 +615,7 @@ The user's home directory will be created if it does not  exist. The  files  con
 -H  sambaAcctFlags
   spaces and trailing bracket are ignored (samba account control bits like '[NDHTUMWSLKI]'
 
--M  local mail aliases (multiple addresses are seperated by spaces)
+-M  local mail aliases (multiple addresses are separated by spaces)
 
 -N  canonical name
  defaults to gecos or username, if gecos not set
@@ -623,7 +623,7 @@ The user's home directory will be created if it does not  exist. The  files  con
 -S  surname
  defaults to username
 
--T  mailToAddress (forward address) (multiple addresses are seperated by spaces)
+-T  mailToAddress (forward address) (multiple addresses are separated by spaces)
 
 -n  do not print banner message
 

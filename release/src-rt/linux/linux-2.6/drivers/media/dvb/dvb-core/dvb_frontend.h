@@ -81,8 +81,8 @@ struct dvb_tuner_ops {
 #define TUNER_STATUS_LOCKED 1
 	int (*get_status)(struct dvb_frontend *fe, u32 *status);
 
-	/** These are provided seperately from set_params in order to facilitate silicon
-	 * tuners which require sophisticated tuning loops, controlling each parameter seperately. */
+	/** These are provided separately from set_params in order to facilitate silicon
+	 * tuners which require sophisticated tuning loops, controlling each parameter separately. */
 	int (*set_frequency)(struct dvb_frontend *fe, u32 frequency);
 	int (*set_bandwidth)(struct dvb_frontend *fe, u32 bandwidth);
 };

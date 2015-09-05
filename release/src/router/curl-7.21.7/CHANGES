@@ -2034,7 +2034,7 @@ Julien Chaffraix (7 Feb 2011)
   
   The main has not been updated from some time and is out of sync with
   the code. The code is now tested by several test cases so no need for
-  a seperate code path.
+  a separate code path.
 
 - netrc: Tightened up the type checks.
   
